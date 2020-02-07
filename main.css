@@ -1,0 +1,139 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #F7EFE1;
+    overflow: hidden;
+    font-family: 'Rosario', sans-serif;
+
+}
+
+/*------TOP CONTENTS------*/
+
+.topWrapper,
+.sideWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topWrapper {
+    position: relative;
+    width: 100%;
+    height: 100px;
+
+}
+
+.menu-icon {
+    position: absolute;
+    left: 60px;
+    top: 60px;
+}
+
+.twitter-icon {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+}
+
+.facebook-icon {
+    position: absolute;
+    top: 60px;
+    right: 100px;
+}
+
+.topCircles {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/*------CENTER CONTENTS------*/
+
+.sideWrapper {
+    position: relative;
+    height: 980px;
+    width: 150px;
+
+
+}
+
+.side-menu {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    bottom: 200px;
+    right: 10px;
+    text-align: right;
+
+
+}
+
+li {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0.7;
+    height: 37px;
+    cursor: pointer;
+}
+
+.fa-grip-lines {
+    position: absolute;
+    padding: 0;
+    top: 20px;
+    font-size: 25px;
+}
+
+.grip-lines-1,
+.grip-lines-2,
+.grip-lines-3,
+.grip-lines-4,
+.grip-lines-5 {
+    position: absolute;
+    padding: 0;
+    font-size: 25px;
+    right: 0;
+}
+
+.grip-lines-2 {
+    top: 99.5px
+}
+
+.grip-lines-3 {
+    top: 180px;
+}
+
+.grip-lines-4 {
+    top: 258px;
+}
+
+.grip-lines-5 {
+    top: 336px;
+}
+
+#skincare,
+#bodycare,
+#haircare,
+#kitsgifts,
+#events {
+    transition: 0.5s;
+    color: #202524;
+
+}
+
+/*------HOVERS & SUCH------*/
+
+#skincare:hover,
+#bodycare:hover,
+#haircare:hover,
+#kitsgifts:hover,
+#events:hover {
+    transform: translateX(-23px);
+    
+
+
+}
