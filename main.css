@@ -166,10 +166,9 @@ li {
 .imageWrapper {
     position: absolute;
     bottom: 0;
-    right: 100px;
+    right: 140px;
     width: 1078px;
     height: 1080px;
-    border: 1px solid black;
 
 }
 
@@ -179,6 +178,24 @@ li {
     bottom: 0;
 
 }
+
+.image-2 {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    bottom: 0;
+    transform: translateY(20%);
+
+}
+
+.bottomCircles {
+    position: absolute;
+    bottom: 60px;
+    right: 325px;
+  
+}
+
+
 
 
 
